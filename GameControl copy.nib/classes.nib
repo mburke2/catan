@@ -1,0 +1,43 @@
+{
+    IBClasses = (
+        {CLASS = BankView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = BoardView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = CollectionView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {endTurn = id; rollDice = id; sendChat = id; }; 
+            CLASS = Control; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bankView = BankView; 
+                boardView = id; 
+                chatInputField = NSTextField; 
+                chatView = NSTextView; 
+                devCardTable = NSTableView; 
+                diceValueField = NSTextField; 
+                diceView = DiceView; 
+                endButton = NSButton; 
+                frameView = FrameView; 
+                playerView1 = PlayerView; 
+                playerView2 = PlayerView; 
+                playerView3 = PlayerView; 
+                playerView4 = PlayerView; 
+                purchaseTable = PurchaseTableView; 
+                resourceOutline = ResourceOutlineView; 
+                resourceTable = ResourceTableView; 
+                resourceView = id; 
+                rollButton = NSButton; 
+                window = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = DiceGraphView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = DiceView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FrameView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = PlayerView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = PurchaseTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = ResourceOutlineView; LANGUAGE = ObjC; SUPERCLASS = NSOutlineView; }, 
+        {CLASS = ResourceTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}
